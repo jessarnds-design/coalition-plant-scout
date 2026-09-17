@@ -34,3 +34,7 @@ If Pages is served from `/docs` or the `gh-pages` branch, place `public/index.ht
 - Map regenerated from `churches.json`; both removed names absent from `map.html` / `public/index.html`.
 - South Lake Tahoe nearest like-minded: **Colfax Baptist Church (Colfax), ~54.1 mi** (was Grizzly Flats ~36.2 mi).
 - `gh` on the scout box was **not** authenticated as jessarnds-design — push left for Jess.
+
+## Legend (Jess 2026-09-17)
+
+No **Weak presence** category on the heat map. Do not plot `weak_public_presence` pins or show that overlay.
