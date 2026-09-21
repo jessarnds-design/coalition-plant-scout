@@ -193,7 +193,7 @@
       "status": "weak_public_presence",
       "coord_source": "kml",
       "region": "Northern California",
-      "note": "On Coalition map; weak/no usable public website — treat cautiously for coverage"
+      "note": "On Coalition map; weak/no usable public website \u2014 treat cautiously for coverage"
     },
     {
       "name": "Cool Community Church",
@@ -239,7 +239,7 @@
       "status": "established",
       "coord_source": "kml",
       "region": "Northern California",
-      "note": "On Coalition map; not in 64-church scout roster MD — included for coverage analysis"
+      "note": "On Coalition map; not in 64-church scout roster MD \u2014 included for coverage analysis"
     },
     {
       "name": "Crossroads Grace Community Church Manteca",
@@ -300,7 +300,7 @@
       "status": "established",
       "coord_source": "kml",
       "region": "Northern California",
-      "note": "On Coalition map; not in 64-church scout roster MD — included for coverage analysis"
+      "note": "On Coalition map; not in 64-church scout roster MD \u2014 included for coverage analysis"
     },
     {
       "name": "Faith Community Church",
@@ -474,7 +474,7 @@
       "name": "Gospel Community Church Santa Cruz",
       "city": "Santa Cruz",
       "state": "CA",
-      "pastor": "Brandon O’Sullivan",
+      "pastor": "Brandon O\u2019Sullivan",
       "website": "https://www.gospelcommunitysc.org",
       "lat": 36.97827,
       "lon": -122.011157,
@@ -529,7 +529,7 @@
       "status": "established",
       "coord_source": "kml",
       "region": "Northern California",
-      "note": "On Coalition map; not in 64-church scout roster MD — included for coverage analysis"
+      "note": "On Coalition map; not in 64-church scout roster MD \u2014 included for coverage analysis"
     },
     {
       "name": "Grace Bible Church of Hollister",
@@ -715,10 +715,10 @@
       "region": "Northern California"
     },
     {
-      "name": "Iglesia Bíblica de Lincoln",
+      "name": "Iglesia B\u00edblica de Lincoln",
       "city": "Lincoln",
       "state": "CA",
-      "pastor": "Marco A. García",
+      "pastor": "Marco A. Garc\u00eda",
       "website": "https://iglesiadelincoln.org/",
       "lat": 38.884998,
       "lon": -121.296163,
@@ -923,7 +923,7 @@
       "status": "established",
       "coord_source": "kml",
       "region": "Northern California",
-      "note": "On Coalition map; not in 64-church scout roster MD — included for coverage analysis"
+      "note": "On Coalition map; not in 64-church scout roster MD \u2014 included for coverage analysis"
     },
     {
       "name": "Patterson Bible Church",
@@ -1091,13 +1091,30 @@
       "coord_source": "10285 Starr Rd, Windsor, CA 95492 (Nominatim)",
       "region": "Northern California",
       "note": "Also known as First Baptist Church of Windsor / Windsor First Baptist; fbcwindsor.com redirects. Adjacent / explore only; does not count as like-minded coverage. GARBC/Regular Baptist roots; conservative SOF; no Coalition/TMS/9Marks/MacArthur lock; not Doctrines of Grace/cessationist clear match."
+    },
+    {
+      "name": "The Shepherd's Church",
+      "city": "Folsom",
+      "state": "CA",
+      "pastor": "Maxwell Monaghan",
+      "website": "https://www.tscfolsom.org/",
+      "lat": 38.6747839,
+      "lon": -121.1707522,
+      "status": "plant_in_progress",
+      "home": false,
+      "email": "office@tscfolsom.org",
+      "phone": "(916) 542-8382",
+      "address": "Sutter Middle School, 715 Riley St, Folsom, CA 95630",
+      "notes": "Doxa Church Rocklin plant; launched April 2023; Jess approved map add 2026-09-18",
+      "sending_church": "Doxa Church Rocklin"
     }
   ],
   "plants_in_progress": [
     "Trinity Church Benicia",
     "Folsom Bible Church",
     "Calvary Grace Church",
-    "ChristChurch of the Valley"
+    "ChristChurch of the Valley",
+    "The Shepherd's Church"
   ],
   "weak_presence_notes": [
     {
@@ -1114,7 +1131,7 @@
       "status": "weak_public_presence",
       "coord_source": "kml",
       "region": "Northern California",
-      "note": "On Coalition map; weak/no usable public website — treat cautiously for coverage"
+      "note": "On Coalition map; weak/no usable public website \u2014 treat cautiously for coverage"
     }
   ]
 }
