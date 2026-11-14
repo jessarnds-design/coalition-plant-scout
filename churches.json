@@ -1,17 +1,18 @@
 {
   "meta": {
-    "generated": "2026-09-17",
+    "generated": "2026-11-14",
     "home_base": "Grace Church of Napa Valley",
     "home_base_city": "Napa",
     "home_base_lat": 38.326962,
     "home_base_lon": -122.316686,
-    "source": "norcal-roster-for-plant-scout.md (64) + Coalition KML supplements",
+    "source": "CoalitionCEC Google My Map KML (Like-Minded + Church Plants + standalone Spanish)",
+    "kml_url": "https://www.google.com/maps/d/kml?mid=1BFWKsEJu0DoY82dBpnqJ-jFAbnHAj5mO&forcekml=1",
     "like_minded_definition": "CoalitionCEC circle OR TMS/9Marks/MacArthur-aligned (expository, elder-led, Doctrines of Grace, Solas, ACBC-friendly, complementarian, generally cessationist)",
-    "count": 72,
+    "count": 85,
+    "coverage_count": 84,
     "radius_miles_for_gap": 18,
-    "confidence": "first-pass scout; directories incomplete; coords from Coalition KML or city centroids",
-    "roster_count": 64,
-    "notes": "64 from Coalition roster MD; + map supplements (CrossPointe Redding, Evangel Berkeley, Orland EFC, Grace Bible Chico) and Laytonville weak-presence note; + Patterson Bible Church plant_in_progress (2026-09-17); + Grace Church Monterey Bay (Seaside) & First Baptist Church of Monterey (TMS/MacArthur lane, established; 2026-09-17); + adjacent_explore is tracked separately and does not count as coverage or alter gap calculations."
+    "confidence": "Synced from the live Coalition My Map; pastors/websites enriched from the Coalition church list when the KML field is empty.",
+    "notes": "Hartstone Bible Camp excluded. Attached Spanish ministries of an English church are not plotted as a second pin. No Weak Presence category. Windsor Christian Church is adjacent_explore and does not count as coverage. Patterson Bible Church is omitted unless it reappears on the My Map."
   },
   "churches": [
     {
@@ -21,13 +22,28 @@
       "pastor": "V. Mark Smith",
       "website": "https://bbaptist.org",
       "lat": 38.348493,
-      "lon": -122.695051,
+      "lon": -122.6950513,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Berean Baptist Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Bay"
+    },
+    {
+      "name": "Calvary Community Church Knightsen",
+      "city": "Knightsen",
+      "state": "CA",
+      "pastor": "Dr. Josh Kornoff",
+      "website": "https://calvarytruth.org/",
+      "lat": 37.9690794,
+      "lon": -121.6678948,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "Calvary Grace Church",
@@ -35,29 +51,14 @@
       "state": "CA",
       "pastor": "Jason Jarvis",
       "website": "https://calvarygrace.website/",
-      "lat": 38.688696,
-      "lon": -121.227155,
+      "lat": 38.6886965,
+      "lon": -121.2271554,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "plant_in_progress",
-      "coord_source": "Calvary Grace Church",
-      "region": "Northern California"
-    },
-    {
-      "name": "Capilla Calvario de Napa",
-      "city": "Napa",
-      "state": "CA",
-      "pastor": "Arturo Solorzano",
-      "website": "https://www.gracenapa.org/",
-      "lat": 38.327359,
-      "lon": -122.31545,
-      "affiliation_signals": [
-        "CoalitionCEC"
-      ],
-      "status": "established",
-      "coord_source": "Capilla Calvario de Napa",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Chinese Grace Bible Church Sacramento",
@@ -68,11 +69,11 @@
       "lat": 38.506778,
       "lon": -121.549388,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Chinese Grace Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Christ Community Church of Vina",
@@ -81,13 +82,13 @@
       "pastor": "Chris Dotson",
       "website": "https://www.christchurchvina.org/",
       "lat": 39.933033,
-      "lon": -122.052719,
+      "lon": -122.0527191,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Christ Community Church of Vina",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Valley"
     },
     {
       "name": "ChristChurch of the Valley",
@@ -95,14 +96,14 @@
       "state": "CA",
       "pastor": "John Jordan",
       "website": "https://christcv.org/",
-      "lat": 38.355677,
-      "lon": -121.990187,
+      "lat": 38.3556769,
+      "lon": -121.9901869,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "plant_in_progress",
-      "coord_source": "ChristChurch of the Valley",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Bay"
     },
     {
       "name": "Christian Family Fellowship Santa Rosa",
@@ -110,14 +111,14 @@
       "state": "CA",
       "pastor": "Aaron Pendergrass",
       "website": "https://www.cffsantarosa.org",
-      "lat": 38.479357,
-      "lon": -122.740833,
+      "lat": 38.4793571,
+      "lon": -122.7408333,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Christian Family Fellowship Santa Rosa",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Bay"
     },
     {
       "name": "City Bible Church",
@@ -125,29 +126,44 @@
       "state": "CA",
       "pastor": "Vlad Burlaka",
       "website": "https://www.citybiblesacramento.com/",
-      "lat": 38.565319,
-      "lon": -121.4418,
+      "lat": 38.5653188,
+      "lon": -121.4418004,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "City Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "City Light Bible Church Santa Clara",
       "city": "Santa Clara",
       "state": "CA",
       "pastor": "Chris Gee",
-      "website": "https://citylightbible.org",
-      "lat": 37.31597,
-      "lon": -122.014439,
+      "website": "https://www.citylightbible.org/",
+      "lat": 37.3942278,
+      "lon": -121.9833901,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Creekside Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "San Francisco / Peninsula / South Bay"
+    },
+    {
+      "name": "Clayton Valley Church",
+      "city": "Concord",
+      "state": "CA",
+      "pastor": "Chris Oliveri",
+      "website": "https://www.claytonvalleychurch.com/",
+      "lat": 37.9463976,
+      "lon": -121.9627749,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "Colfax Baptist Church",
@@ -155,14 +171,14 @@
       "state": "CA",
       "pastor": "Gary Howard",
       "website": "https://www.colfaxbaptist.com/",
-      "lat": 39.106246,
-      "lon": -120.960993,
+      "lat": 39.1062462,
+      "lon": -120.9609929,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Colfax Baptist Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Community Bible Church Vallejo",
@@ -170,30 +186,29 @@
       "state": "CA",
       "pastor": "Phil Foley",
       "website": "https://cbcvallejo.org",
-      "lat": 38.114547,
-      "lon": -122.248148,
+      "lat": 38.1145471,
+      "lon": -122.2481479,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Community Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Bay"
     },
     {
       "name": "Community Christian Church (Laytonville)",
       "city": "Laytonville",
       "state": "CA",
-      "pastor": "",
-      "website": "",
-      "lat": 39.648535,
-      "lon": -123.477373,
+      "pastor": "Mike Moody",
+      "website": "https://www.laytonvilleccc.org/",
+      "lat": 39.6485347,
+      "lon": -123.4773733,
       "affiliation_signals": [
         "CoalitionCEC map"
       ],
-      "status": "weak_public_presence",
-      "coord_source": "kml",
-      "region": "Northern California",
-      "note": "On Coalition map; weak/no usable public website — treat cautiously for coverage"
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "North Coast"
     },
     {
       "name": "Cool Community Church",
@@ -201,14 +216,14 @@
       "state": "CA",
       "pastor": "Drew Buell",
       "website": "https://coolchurch.org",
-      "lat": 38.873677,
+      "lat": 38.8736766,
       "lon": -121.021358,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Cool Community Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Creekside Bible Church Cupertino",
@@ -216,30 +231,14 @@
       "state": "CA",
       "pastor": "Cliff McManis",
       "website": "https://www.creeksidebiblechurch.com",
-      "lat": 37.31597,
-      "lon": -122.014439,
-      "affiliation_signals": [
-        "CoalitionCEC"
-      ],
-      "status": "established",
-      "coord_source": "Creekside Bible Church",
-      "region": "Northern California"
-    },
-    {
-      "name": "CrossPointe Community Church",
-      "city": "Redding",
-      "state": "CA",
-      "pastor": "",
-      "website": "",
-      "lat": 40.564602,
-      "lon": -122.316422,
+      "lat": 37.3159705,
+      "lon": -122.0144388,
       "affiliation_signals": [
         "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "kml",
-      "region": "Northern California",
-      "note": "On Coalition map; not in 64-church scout roster MD — included for coverage analysis"
+      "coord_source": "Coalition My Map KML",
+      "region": "San Francisco / Peninsula / South Bay"
     },
     {
       "name": "Crossroads Grace Community Church Manteca",
@@ -247,14 +246,14 @@
       "state": "CA",
       "pastor": "Brian Hunt",
       "website": "https://crossroadsgrace.org",
-      "lat": 37.781386,
-      "lon": -121.189778,
+      "lat": 37.7813861,
+      "lon": -121.1897776,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Crossroads Grace Community Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Central Valley"
     },
     {
       "name": "Doxa Church Rocklin",
@@ -262,45 +261,29 @@
       "state": "CA",
       "pastor": "Scott Hollingshead",
       "website": "https://doxa.church",
-      "lat": 38.817973,
+      "lat": 38.8179734,
       "lon": -121.305953,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Doxa Church",
-      "region": "Northern California"
-    },
-    {
-      "name": "Elk Grove Bible Church (now Redeemer Bible Church)",
-      "city": "Elk Grove",
-      "state": "CA",
-      "pastor": "Justin Schroeder",
-      "website": "https://www.redeemerbible.net",
-      "lat": 38.425764,
-      "lon": -121.460284,
-      "affiliation_signals": [
-        "CoalitionCEC"
-      ],
-      "status": "established",
-      "coord_source": "Elk Grove Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Evangel Bible Church of Berkeley",
       "city": "Berkeley",
       "state": "CA",
-      "pastor": "",
-      "website": "",
+      "pastor": "John Shim",
+      "website": "https://www.ebcb.org",
       "lat": 37.879236,
       "lon": -122.286999,
       "affiliation_signals": [
         "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "kml",
-      "region": "Northern California",
-      "note": "On Coalition map; not in 64-church scout roster MD — included for coverage analysis"
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "Faith Community Church",
@@ -311,26 +294,41 @@
       "lat": 38.347328,
       "lon": -121.989464,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Faith Community Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Bay"
+    },
+    {
+      "name": "Faith Community Church Fremont",
+      "city": "Fremont",
+      "state": "CA",
+      "pastor": "Dan Lee",
+      "website": "https://www.fccbay.org/",
+      "lat": 37.4813605,
+      "lon": -121.9318638,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "Family Bible Church Fairfield",
       "city": "Fairfield",
       "state": "CA",
-      "pastor": "Rich",
+      "pastor": "Rich Manrique",
       "website": "https://www.familybible.net",
       "lat": 38.215651,
       "lon": -122.122324,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Family Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Bay"
     },
     {
       "name": "First Baptist Church of Fortuna",
@@ -338,14 +336,14 @@
       "state": "CA",
       "pastor": "John Carter",
       "website": "https://www.fbcfortuna.com",
-      "lat": 40.599277,
-      "lon": -124.1458,
+      "lat": 40.5992767,
+      "lon": -124.1458003,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "First Baptist Church of Fortuna",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Coast"
     },
     {
       "name": "First Baptist Church of Monterey",
@@ -353,17 +351,14 @@
       "state": "CA",
       "pastor": "Josh Nichols",
       "website": "https://www.fbcmonterey.org",
-      "lat": 36.6135259,
-      "lon": -121.9026312,
+      "lat": 36.6136366,
+      "lon": -121.9026278,
       "affiliation_signals": [
-        "TMS",
-        "doctrines of grace",
-        "expositional"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "website address: 600 Hawthorne St, Monterey, CA 93940 (Nominatim)",
-      "region": "Northern California",
-      "note": "High-confidence TMS lane; not necessarily Coalition roster. Added 2026-09-17."
+      "coord_source": "Coalition My Map KML",
+      "region": "Central Coast / Monterey Bay"
     },
     {
       "name": "First Baptist Church Weaverville",
@@ -371,29 +366,29 @@
       "state": "CA",
       "pastor": "Travis Flournoy",
       "website": "https://www.fbcweaverville.org",
-      "lat": 40.725706,
-      "lon": -122.932029,
+      "lat": 40.7257061,
+      "lon": -122.9320295,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "First Baptist Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Far North"
     },
     {
       "name": "First Family Church Antioch",
       "city": "Antioch",
       "state": "CA",
-      "pastor": "Nick Neves; Paul Abeyta; John Williams",
+      "pastor": "Nick Neves, Paul Abeyta, and John Williams",
       "website": "https://firstfamily.us",
-      "lat": 37.929492,
-      "lon": -121.69782,
+      "lat": 37.9903067,
+      "lon": -121.819703,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Grace Bible Fellowship",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "FocalPoint Bible Church",
@@ -401,29 +396,29 @@
       "state": "CA",
       "pastor": "Charlie Nason",
       "website": "https://focalpointbible.org",
-      "lat": 37.975802,
-      "lon": -122.29776,
+      "lat": 37.9758023,
+      "lon": -122.2977602,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "FocalPoint Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "Folsom Bible Church",
       "city": "Folsom",
       "state": "CA",
-      "pastor": "Tony Arnds; Maks Vusik",
+      "pastor": "Tony Arnds and Maks Vusik",
       "website": "https://www.folsombiblechurch.org/",
-      "lat": 38.641304,
-      "lon": -121.190179,
+      "lat": 38.6413039,
+      "lon": -121.1901794,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "plant_in_progress",
-      "coord_source": "Folsom Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Gateway Bible Church Castro Valley",
@@ -432,13 +427,13 @@
       "pastor": "Rod Phillips",
       "website": "https://www.gatewaylife.org",
       "lat": 37.699615,
-      "lon": -122.061115,
+      "lon": -122.0611151,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Gateway Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "Gold Country Baptist Church",
@@ -446,14 +441,14 @@
       "state": "CA",
       "pastor": "Phil Layton",
       "website": "https://gcb.church",
-      "lat": 38.666319,
-      "lon": -120.932681,
+      "lat": 38.6663193,
+      "lon": -120.9326812,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Gold Country Baptist Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Gospel Community Church Livermore",
@@ -461,18 +456,14 @@
       "state": "CA",
       "pastor": "Sammy Barton",
       "website": "https://gcclivermore.org",
-      "lat": 37.7067942,
-      "lon": -121.8153796,
+      "lat": 37.7074652,
+      "lon": -121.8167658,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "plant_in_progress",
-      "coord_source": "3090 Independence Dr, Livermore (Nominatim 2026-09-21)",
-      "region": "Northern California",
-      "address": "3090 Independence Dr, Livermore, CA 94551",
-      "email": "info@gcclivermore.org",
-      "notes": "NorthCreek Walnut Creek plant; launched Sep 2024; Jess directed Church Plants layer 2026-09-21; early core meetings at Ridgeview Hope Pleasanton",
-      "sending_church": "NorthCreek Church Walnut Creek"
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "Gospel Community Church Santa Cruz",
@@ -480,14 +471,14 @@
       "state": "CA",
       "pastor": "Brandon O’Sullivan",
       "website": "https://www.gospelcommunitysc.org",
-      "lat": 36.97827,
-      "lon": -122.011157,
+      "lat": 36.9782699,
+      "lon": -122.0111571,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Gospel Community Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Central Coast / Monterey Bay"
     },
     {
       "name": "Grace Baptist Church",
@@ -495,14 +486,14 @@
       "state": "CA",
       "pastor": "Jason Hunt",
       "website": "https://gbceureka.churchcenter.com/",
-      "lat": 40.785983,
-      "lon": -124.167887,
+      "lat": 40.7859832,
+      "lon": -124.1678874,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Grace Baptist Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Coast"
     },
     {
       "name": "Grace Bible Church Fair Oaks",
@@ -510,45 +501,59 @@
       "state": "CA",
       "pastor": "Richard Gregory",
       "website": "https://gracefairoaks.com",
-      "lat": 38.657062,
-      "lon": -121.225157,
+      "lat": 38.6570617,
+      "lon": -121.2251575,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Grace Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
+    },
+    {
+      "name": "Grace Bible Church of Cedar Ridge",
+      "city": "Cedar Ridge",
+      "state": "CA",
+      "pastor": "Chris Bogstad",
+      "website": "https://gracebiblecr.org/",
+      "lat": 39.1992864,
+      "lon": -121.0216423,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Grace Bible Church of Chico",
       "city": "Chico",
       "state": "CA",
       "pastor": "",
-      "website": "",
-      "lat": 39.796946,
-      "lon": -121.850012,
+      "website": "https://www.gracebiblechico.com/",
+      "lat": 39.7969465,
+      "lon": -121.8500116,
       "affiliation_signals": [
         "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "kml",
-      "region": "Northern California",
-      "note": "On Coalition map; not in 64-church scout roster MD — included for coverage analysis"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Valley"
     },
     {
       "name": "Grace Bible Church of Hollister",
       "city": "Hollister",
       "state": "CA",
-      "pastor": "Michael Burchfield; John Prettyman",
+      "pastor": "Michael Burchfield",
       "website": "https://www.gracehollister.org",
-      "lat": 36.85031,
-      "lon": -121.403384,
+      "lat": 36.8503104,
+      "lon": -121.4033844,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Grace Bible Church of Hollister",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Central Coast / Monterey Bay"
     },
     {
       "name": "Grace Bible Church of Pleasant Hill",
@@ -557,13 +562,13 @@
       "pastor": "Tony Sanelli",
       "website": "https://www.graceforus.org",
       "lat": 37.947113,
-      "lon": -122.064705,
+      "lon": -122.0647049,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Grace Bible Church of Pleasant Hill",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "Grace Bible Church Roseville",
@@ -571,29 +576,29 @@
       "state": "CA",
       "pastor": "Louie Handugan",
       "website": "https://gracebibleroseville.com",
-      "lat": 38.752563,
-      "lon": -121.313322,
+      "lat": 38.7525634,
+      "lon": -121.3133223,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Grace Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Grace Bible Fellowship Brentwood",
       "city": "Brentwood",
       "state": "CA",
-      "pastor": "Mike Shrout; Wes Wade; Deepak Koilvaram",
+      "pastor": "Mike Shrout, Wes Wade, and Deepak Koilvaram",
       "website": "https://www.gbfellowship.net",
-      "lat": 37.929492,
-      "lon": -121.69782,
+      "lat": 37.9294921,
+      "lon": -121.6978196,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Grace Bible Fellowship",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "Grace Church Monterey Bay",
@@ -601,17 +606,14 @@
       "state": "CA",
       "pastor": "Dominic Avila",
       "website": "https://www.gracemontereybay.org",
-      "lat": 36.6171709,
-      "lon": -121.8344642,
+      "lat": 36.6189306,
+      "lon": -121.8364145,
       "affiliation_signals": [
-        "TMS/TMU",
-        "CHBC/Dever internship",
-        "MacArthur-style SOF"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "website address: 1949 Waring St, Seaside, CA 93955 (Nominatim)",
-      "region": "Northern California",
-      "note": "High-confidence TMS/MacArthur lane; not necessarily Coalition roster. Added 2026-09-17."
+      "coord_source": "Coalition My Map KML",
+      "region": "Central Coast / Monterey Bay"
     },
     {
       "name": "Grace Church of Napa Valley",
@@ -622,11 +624,27 @@
       "lat": 38.326962,
       "lon": -122.316686,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Grace Church of Napa Valley",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Bay",
+      "home": true
+    },
+    {
+      "name": "Grace Church of Orland",
+      "city": "Orland",
+      "state": "CA",
+      "pastor": "Tommy Hass",
+      "website": "https://www.graceorland.org",
+      "lat": 39.7475594,
+      "lon": -122.182831,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "North Valley"
     },
     {
       "name": "Grace Church of Santa Rosa",
@@ -637,11 +655,58 @@
       "lat": 38.477204,
       "lon": -122.771924,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Grace Church of Santa Rosa",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Bay"
+    },
+    {
+      "name": "Grace Church of the Bay Area",
+      "city": "San Mateo",
+      "state": "CA",
+      "pastor": "Dr. Roger Chen",
+      "website": "https://www.gracebayarea.org/",
+      "lat": 37.5775009,
+      "lon": -122.3278594,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "San Francisco / Peninsula / South Bay"
+    },
+    {
+      "name": "Grace Church of the Valley Kingsburg",
+      "city": "Kingsburg",
+      "state": "CA",
+      "pastor": "Scott Ardavanis)",
+      "website": "https://www.graceofthevalley.org/",
+      "lat": 36.510056,
+      "lon": -119.548832,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "Central Valley",
+      "spanish": true,
+      "note": "Only the Spanish ministry is pinned; the English congregation is not on the map."
+    },
+    {
+      "name": "Grace Community Church Minden",
+      "city": "Minden",
+      "state": "NV",
+      "pastor": "Brian Borgman",
+      "website": "https://www.gracenevada.com",
+      "lat": 39.0076294,
+      "lon": -119.7632181,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "Sierra / Tahoe"
     },
     {
       "name": "Grace Pointe Church",
@@ -650,13 +715,13 @@
       "pastor": "Sean McDonald",
       "website": "https://ubcriovista.org/",
       "lat": 38.158468,
-      "lon": -121.699396,
+      "lon": -121.6993956,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Grace Pointe Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Bay"
     },
     {
       "name": "Grace River City Church",
@@ -664,29 +729,29 @@
       "state": "CA",
       "pastor": "Zong Moua",
       "website": "https://gracerivercity.org/",
-      "lat": 38.6288,
-      "lon": -121.365089,
+      "lat": 38.424118,
+      "lon": -121.3335343,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "River City Grace Community Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "GraceHill Church",
       "city": "Citrus Heights",
       "state": "CA",
-      "pastor": "Tim Vusik; Mike Trofimenko",
+      "pastor": "Tim Vusik",
       "website": "https://www.gracehillonline.org/",
-      "lat": 38.696534,
-      "lon": -121.285672,
+      "lat": 38.6965336,
+      "lon": -121.2856719,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "GraceHill Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Hickman Community Church",
@@ -694,14 +759,14 @@
       "state": "CA",
       "pastor": "Andrew Callaway",
       "website": "https://hickmanchurch.org/",
-      "lat": 37.62248,
-      "lon": -120.749137,
+      "lat": 37.6224801,
+      "lon": -120.7491366,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Hickman Community Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Central Valley"
     },
     {
       "name": "Higher Ground Church Oakland",
@@ -710,13 +775,45 @@
       "pastor": "Billie Dempsey",
       "website": "https://www.highergroundchurch.org",
       "lat": 37.817283,
-      "lon": -122.28238,
+      "lon": -122.2823799,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Higher Ground Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
+    },
+    {
+      "name": "Hillside Church San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "pastor": "Jono Burlini",
+      "website": "https://www.hillside.org",
+      "lat": 37.2807843,
+      "lon": -121.8598806,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "San Francisco / Peninsula / South Bay"
+    },
+    {
+      "name": "Iglesia Bíblica Calvario de Napa",
+      "city": "Napa",
+      "state": "CA",
+      "pastor": "Arturo Solórzano",
+      "website": "https://ibcnapa.org",
+      "lat": 38.327495,
+      "lon": -122.315026,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "North Bay",
+      "spanish": true,
+      "note": "Meets at Grace Church of Napa Valley."
     },
     {
       "name": "Iglesia Bíblica de Lincoln",
@@ -724,29 +821,78 @@
       "state": "CA",
       "pastor": "Marco A. García",
       "website": "https://iglesiadelincoln.org/",
-      "lat": 38.884998,
-      "lon": -121.296163,
+      "lat": 38.8849984,
+      "lon": -121.2961629,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Iglesia Biblica de Lincoln",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills",
+      "spanish": true
+    },
+    {
+      "name": "Iglesia del Pueblo de Dios Lodi",
+      "city": "Lodi",
+      "state": "CA",
+      "pastor": "Luis Floriano",
+      "website": "https://iglesiadelpueblodedios.com/",
+      "lat": 38.123081,
+      "lon": -121.309528,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "Central Valley",
+      "spanish": true
+    },
+    {
+      "name": "Iglesia del Pueblo de Dios Tracy",
+      "city": "Tracy",
+      "state": "CA",
+      "pastor": "Luis Floriano",
+      "website": "https://iglesiadelpueblodedios.com/",
+      "lat": 37.721975,
+      "lon": -121.453868,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "Central Valley",
+      "spanish": true
+    },
+    {
+      "name": "Iglesia del Valle Central",
+      "city": "Ceres",
+      "state": "CA",
+      "pastor": "Enrique Sarria",
+      "website": "https://iglesiadelvallecentral.com/",
+      "lat": 37.592056,
+      "lon": -120.95255,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "Central Valley",
+      "spanish": true
     },
     {
       "name": "Immanuel Baptist Church Sacramento",
       "city": "Sacramento",
       "state": "CA",
-      "pastor": "Robert Briggs; Steve Meister",
+      "pastor": "Robert Briggs and Steve Meister",
       "website": "https://ibcsac.org",
-      "lat": 38.570166,
-      "lon": -121.477017,
+      "lat": 38.5701655,
+      "lon": -121.4770171,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Immanuel Baptist Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Laguna Chinese Baptist Church Elk Grove",
@@ -754,14 +900,14 @@
       "state": "CA",
       "pastor": "Jonathan Szeto",
       "website": "https://www.lagunabaptist.org",
-      "lat": 38.422361,
-      "lon": -121.452404,
+      "lat": 38.4223614,
+      "lon": -121.4524042,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Laguna Chinese Baptist Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Light By The Bay Church",
@@ -769,14 +915,14 @@
       "state": "CA",
       "pastor": "Glenn Nicolas",
       "website": "https://lightbythebay.church",
-      "lat": 37.676662,
-      "lon": -122.136156,
+      "lat": 37.6766616,
+      "lon": -122.1361556,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Light By The Bay Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "Lighthouse Bible Church San Jose / Cupertino",
@@ -784,14 +930,14 @@
       "state": "CA",
       "pastor": "Mark Chin",
       "website": "https://www.lbcsj.com",
-      "lat": 37.352624,
-      "lon": -122.039573,
+      "lat": 37.3526243,
+      "lon": -122.0395733,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Lighthouse Bible Church, San Jose",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "San Francisco / Peninsula / South Bay"
     },
     {
       "name": "Lighthouse Bible Fellowship",
@@ -799,14 +945,14 @@
       "state": "CA",
       "pastor": "Craig Greatman",
       "website": "https://lighthousebiblefellowship.snappages.site/",
-      "lat": 37.568635,
-      "lon": -121.970243,
+      "lat": 37.5686354,
+      "lon": -121.9702431,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Lighthouse Bible Fellowship",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "Living Hope Fellowship Chico",
@@ -814,14 +960,14 @@
       "state": "CA",
       "pastor": "Heath Jarrett",
       "website": "https://livinghopechico.com",
-      "lat": 39.760242,
-      "lon": -121.857729,
+      "lat": 39.7602424,
+      "lon": -121.8577288,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Living Hope Fellowship",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Valley"
     },
     {
       "name": "Lone Hill Church San Jose",
@@ -829,29 +975,29 @@
       "state": "CA",
       "pastor": "Bj Lopez",
       "website": "https://www.lonehillchurch.org",
-      "lat": 37.245997,
-      "lon": -121.921532,
+      "lat": 37.2459968,
+      "lon": -121.9215315,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Lone Hill Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "San Francisco / Peninsula / South Bay"
     },
     {
       "name": "Middletown Bible Church",
       "city": "Middletown",
       "state": "CA",
-      "pastor": "Rob",
+      "pastor": "Rob Rainey",
       "website": "https://middletownbible.org",
-      "lat": 38.755965,
-      "lon": -122.610488,
+      "lat": 38.7559654,
+      "lon": -122.6104878,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Middletown Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Bay"
     },
     {
       "name": "Mt. Pleasant Baptist Church",
@@ -859,14 +1005,14 @@
       "state": "CA",
       "pastor": "Adam Hatfield",
       "website": "https://www.mtpbclincoln.org/",
-      "lat": 38.917891,
-      "lon": -121.22261,
+      "lat": 38.9178906,
+      "lon": -121.2226098,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "MT. Pleasant Baptist Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Newark Community Church",
@@ -874,14 +1020,14 @@
       "state": "CA",
       "pastor": "Pius Abeshi",
       "website": "https://newarkcommunitychurch.org",
-      "lat": 37.526628,
-      "lon": -122.031138,
+      "lat": 37.5266276,
+      "lon": -122.0311376,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Newark Community Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "NorthCreek Church",
@@ -889,75 +1035,90 @@
       "state": "CA",
       "pastor": "Kent Dresdow",
       "website": "https://northcreek.org",
-      "lat": 37.922537,
-      "lon": -122.028676,
+      "lat": 37.9225373,
+      "lon": -122.0286757,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "NorthCreek Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "East Bay"
     },
     {
       "name": "Orchard Community Church Campbell",
       "city": "Campbell",
       "state": "CA",
-      "pastor": "Jeremy; Daniel Kim",
+      "pastor": "Jeremy Wong & Daniel Kim",
       "website": "https://www.orchardcommunity.org",
-      "lat": 37.285055,
-      "lon": -121.947088,
+      "lat": 37.2850555,
+      "lon": -121.9470876,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Orchard Community Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "San Francisco / Peninsula / South Bay"
     },
     {
       "name": "Orland Evangelical Free Church",
       "city": "Orland",
       "state": "CA",
-      "pastor": "",
-      "website": "",
-      "lat": 39.748116,
-      "lon": -122.189283,
+      "pastor": "Jeff Tollison",
+      "website": "https://www.orlandefc.org/",
+      "lat": 39.7481161,
+      "lon": -122.1892828,
       "affiliation_signals": [
         "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "kml",
-      "region": "Northern California",
-      "note": "On Coalition map; not in 64-church scout roster MD — included for coverage analysis"
-    },
-    {
-      "name": "Patterson Bible Church",
-      "city": "Patterson",
-      "state": "CA",
-      "pastor": "",
-      "website": "https://pattersonbible.tithelysetup2.com/",
-      "lat": 37.4664144,
-      "lon": -121.1744778,
-      "affiliation_signals": [
-        "CoalitionCEC"
-      ],
-      "status": "plant_in_progress",
-      "coord_source": "website address 2959 Speno Dr (OSM/Nominatim)",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Valley"
     },
     {
       "name": "Potter Valley Bible Church",
       "city": "Potter Valley",
       "state": "CA",
-      "pastor": "Tony Arnds",
+      "pastor": "Greg Pederson",
       "website": "https://pottervalleybible.org",
-      "lat": 39.321599,
-      "lon": -123.110734,
+      "lat": 39.3215992,
+      "lon": -123.1107343,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Potter Valley Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Coast"
+    },
+    {
+      "name": "Redeemer Bible Church Elk Grove",
+      "city": "Elk Grove",
+      "state": "CA",
+      "pastor": "Justin Schroeder",
+      "website": "https://www.redeemerbible.net",
+      "lat": 38.4257637,
+      "lon": -121.4602839,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills",
+      "note": "Map pin is still titled Elk Grove Bible Church; the congregation now goes by Redeemer Bible Church."
+    },
+    {
+      "name": "Redeemer Bible Church Oceanside",
+      "city": "Oceanside",
+      "state": "CA",
+      "pastor": "Angelo Tolentino",
+      "website": "http://www.christredeemedus.org",
+      "lat": 33.2061009,
+      "lon": -117.3148647,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "Southern California"
     },
     {
       "name": "Redeemer Bible Church San Jose",
@@ -965,14 +1126,29 @@
       "state": "CA",
       "pastor": "Aaron Vega",
       "website": "https://redeemersj.com",
-      "lat": 37.322407,
-      "lon": -121.842833,
+      "lat": 37.3224069,
+      "lon": -121.8428325,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Redeemer Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "San Francisco / Peninsula / South Bay"
+    },
+    {
+      "name": "Redeemer Bible Fellowship Mountain View",
+      "city": "Mountain View",
+      "state": "CA",
+      "pastor": "Stephen Chen",
+      "website": "https://redeemermv.org",
+      "lat": 37.4176627,
+      "lon": -122.0903149,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "San Francisco / Peninsula / South Bay"
     },
     {
       "name": "Redwood Christian Fellowship Fortuna",
@@ -980,14 +1156,14 @@
       "state": "CA",
       "pastor": "Bob Hapgood",
       "website": "https://www.rcffortuna.org",
-      "lat": 40.598644,
-      "lon": -124.15354,
+      "lat": 40.5986442,
+      "lon": -124.1535403,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Redwood Christian Fellowship",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Coast"
     },
     {
       "name": "River City Grace Community Church",
@@ -995,14 +1171,14 @@
       "state": "CA",
       "pastor": "Greg Stoever",
       "website": "https://rivercitygrace.org",
-      "lat": 38.6288,
-      "lon": -121.365089,
+      "lat": 38.6287996,
+      "lon": -121.3650887,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "River City Grace Community Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "San Francisco Bible Church",
@@ -1010,14 +1186,14 @@
       "state": "CA",
       "pastor": "Henry Tam",
       "website": "https://www.sfbible.org",
-      "lat": 37.743084,
-      "lon": -122.470524,
+      "lat": 37.7430844,
+      "lon": -122.4705236,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "San Francisco Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "San Francisco / Peninsula / South Bay"
     },
     {
       "name": "Santa Rosa Bible Church",
@@ -1025,14 +1201,29 @@
       "state": "CA",
       "pastor": "Josh Carrillo",
       "website": "https://srbible.org",
-      "lat": 38.479357,
-      "lon": -122.740833,
+      "lat": 38.4825545,
+      "lon": -122.6744521,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Christian Family Fellowship Santa Rosa",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Bay"
+    },
+    {
+      "name": "Silicon Valley Reformed Baptist Church",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "pastor": "Conley Owens",
+      "website": "https://svrbc.org",
+      "lat": 37.3949454,
+      "lon": -122.0055186,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "San Francisco / Peninsula / South Bay"
     },
     {
       "name": "The Cornerstone Bible Church Sacramento",
@@ -1040,14 +1231,29 @@
       "state": "CA",
       "pastor": "Nick Haight",
       "website": "https://www.tcbcsacramento.org",
-      "lat": 38.64605,
-      "lon": -121.488197,
+      "lat": 38.6460501,
+      "lon": -121.4881974,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "The Cornerstone Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
+    },
+    {
+      "name": "The Shepherd's Church",
+      "city": "Folsom",
+      "state": "CA",
+      "pastor": "Maxwell Monaghan",
+      "website": "https://www.tscfolsom.org/",
+      "lat": 38.6747839,
+      "lon": -121.1707522,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "plant_in_progress",
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
     },
     {
       "name": "Trinity Bible Church Morgan Hill",
@@ -1055,29 +1261,29 @@
       "state": "CA",
       "pastor": "Manny Pereira",
       "website": "https://trinitybiblechurch.org",
-      "lat": 37.119392,
-      "lon": -121.634408,
+      "lat": 37.1193917,
+      "lon": -121.6344083,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "established",
-      "coord_source": "Trinity Bible Church",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "San Francisco / Peninsula / South Bay"
     },
     {
       "name": "Trinity Church Benicia",
       "city": "Benicia",
       "state": "CA",
-      "pastor": "Ryan Rippee; Amel Dominguez",
+      "pastor": "Ryan Rippee",
       "website": "https://www.trinitybenicia.com/",
-      "lat": 38.053135,
-      "lon": -122.159303,
+      "lat": 38.0531348,
+      "lon": -122.1593033,
       "affiliation_signals": [
-        "CoalitionCEC"
+        "CoalitionCEC map"
       ],
       "status": "plant_in_progress",
-      "coord_source": "Trinity Church Benicia",
-      "region": "Northern California"
+      "coord_source": "Coalition My Map KML",
+      "region": "North Bay"
     },
     {
       "name": "Windsor Christian Church",
@@ -1088,55 +1294,21 @@
       "lat": 38.5617155,
       "lon": -122.8270463,
       "affiliation_signals": [
-        "GARBC/Regular Baptist roots",
-        "conservative SOF"
+        "GARBC / Regular Baptist roots; explore"
       ],
       "status": "adjacent_explore",
-      "coord_source": "10285 Starr Rd, Windsor, CA 95492 (Nominatim)",
-      "region": "Northern California",
-      "note": "Also known as First Baptist Church of Windsor / Windsor First Baptist; fbcwindsor.com redirects. Adjacent / explore only; does not count as like-minded coverage. GARBC/Regular Baptist roots; conservative SOF; no Coalition/TMS/9Marks/MacArthur lock; not Doctrines of Grace/cessationist clear match."
-    },
-    {
-      "name": "The Shepherd's Church",
-      "city": "Folsom",
-      "state": "CA",
-      "pastor": "Maxwell Monaghan",
-      "website": "https://www.tscfolsom.org/",
-      "lat": 38.6747839,
-      "lon": -121.1707522,
-      "status": "plant_in_progress",
-      "home": false,
-      "email": "office@tscfolsom.org",
-      "phone": "(916) 542-8382",
-      "address": "Sutter Middle School, 715 Riley St, Folsom, CA 95630",
-      "notes": "Doxa Church Rocklin plant; launched April 2023; Jess approved map add 2026-09-18",
-      "sending_church": "Doxa Church Rocklin"
+      "coord_source": "existing plant-scout inventory",
+      "region": "North Bay",
+      "note": "Formerly First Baptist Church of Windsor. Adjacent / explore — not treated as like-minded coverage."
     }
   ],
   "plants_in_progress": [
-    "Trinity Church Benicia",
-    "Folsom Bible Church",
     "Calvary Grace Church",
     "ChristChurch of the Valley",
+    "Folsom Bible Church",
+    "Gospel Community Church Livermore",
     "The Shepherd's Church",
-    "Gospel Community Church Livermore"
+    "Trinity Church Benicia"
   ],
-  "weak_presence_notes": [
-    {
-      "name": "Community Christian Church (Laytonville)",
-      "city": "Laytonville",
-      "state": "CA",
-      "pastor": "",
-      "website": "",
-      "lat": 39.648535,
-      "lon": -123.477373,
-      "affiliation_signals": [
-        "CoalitionCEC map"
-      ],
-      "status": "weak_public_presence",
-      "coord_source": "kml",
-      "region": "Northern California",
-      "note": "On Coalition map; weak/no usable public website — treat cautiously for coverage"
-    }
-  ]
+  "weak_presence_notes": []
 }

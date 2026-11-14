@@ -2,7 +2,7 @@
 
 **For:** Grace Church / Jess Arnds / Coalition of Christ-Exalting Churches  
 **Home base:** Grace Church of Napa Valley, Napa, CA  
-**Date:** 2026-09-17 (PT)
+**Date:** first pass 2026-09-17 (PT); last synced 2026-11-14 (PT)
 
 ## Deliverables
 
@@ -12,6 +12,8 @@
 | `gaps-ranked.md` | Ranked gap areas with scores, rationale, opportunity types |
 | `gaps.csv` | Machine-readable top gaps for heat-map / sheets |
 | `map.html` | Simple Folium map: churches (cool) vs gaps (hot) |
+| `sync_from_kml.py` | Fetch the Coalition My Map KML, rebuild inventory + map, print a diff |
+| `SYNC.md` | How to rerun the sync and publish to GitHub Pages |
 | `README.md` | This file |
 
 ## Method
@@ -53,7 +55,7 @@ Map, gaps (South Lake Tahoe nearest recalculated to Colfax Baptist Church ~54.1 
 
 ## Executive snapshot
 
-- **Inventory size:** see `churches.json` meta.count (~64 roster + Coalition-map supplements + TMS-lane adds).
+- **Inventory size:** see `churches.json` meta.count (84 coverage pins from the Coalition My Map as of 2026-11-14, plus Windsor adjacent/explore).
 - **Top gap:** **Davis** (send-a-pastor; Coalition-marked).
 - **Other high-need corridors:** Stockton / North San Joaquin; **Salinas** (Peninsula now covered by TMS-lane churches); Merced–Modesto; Marin (Novato); Davis–Woodland; mid-Peninsula (San Mateo).
 
@@ -73,4 +75,32 @@ Confirmed like-minded churches outside the Coalition roster MD, added for covera
 
 - **Grace Church Monterey Bay** — Seaside (Dominic Avila; TMU/TMS + CHBC internship signals) — added 2026-09-17 PT; removes Seaside gap
 - **First Baptist Church of Monterey** — Monterey (Josh Nichols; TMS) — added 2026-09-17 PT
+
+## Keeping it current
+
+The Coalition Google My Map is the source of truth. To refresh the inventory, heat map, and gap list:
+
+```bash
+python3 sync_from_kml.py
+```
+
+Then publish as described in `SYNC.md`. The sync skips Hartstone Bible Camp, does not plot a Weak Presence category, does not double-count Spanish ministries attached to an English church, and keeps OpenStreetMap tiles.
+
+Windsor Christian Church remains `adjacent_explore` (not coverage). Patterson Bible Church is no longer in the inventory because it is not on the My Map.
+
+## Update 2026-11-14 (PT)
+
+Synced from the live Coalition My Map (Like-Minded + Church Plants + standalone Spanish). Inventory is **84 coverage pins** plus Windsor Christian Church (`adjacent_explore`).
+
+**Added:** Grace Church of Orland; Silicon Valley Reformed Baptist Church (Sunnyvale); Hillside Church San Jose; Redeemer Bible Fellowship Mountain View; Clayton Valley Church (Concord); Grace Bible Church of Cedar Ridge; Faith Community Church Fremont; Grace Church of the Bay Area (San Mateo); Calvary Community Church Knightsen; Grace Community Church Minden, NV; Redeemer Bible Church Oceanside; Iglesia del Pueblo de Dios (Tracy and Lodi); Iglesia del Valle Central (Ceres); Grace Church of the Valley Kingsburg (Spanish ministry pin).
+
+**Removed:** CrossPointe Community Church (Redding, closed); Patterson Bible Church (was a plant-scout supplement, not on the My Map). Community Bible Church Placerville and Grizzly Flats stay off the map.
+
+**Renamed:** Capilla Calvario de Napa → Iglesia Bíblica Calvario de Napa; Elk Grove Bible Church (now Redeemer Bible Church) → Redeemer Bible Church Elk Grove.
+
+**Moved (pin corrections):** City Light Bible Church Santa Clara; First Family Church Antioch; Grace River City Church (no longer colocated with River City Grace); Santa Rosa Bible Church; slight update to Grace Church Monterey Bay. Gospel Community Church Livermore stays `plant_in_progress` at the Independence Dr pin. Middletown Bible Church remains at 20853 Hwy 29.
+
+**Status:** Community Christian Church (Laytonville) is now `established` (Mike Moody; laytonvilleccc.org), not weak presence. Potter Valley pastor is Greg Pederson.
+
+**Gaps:** San Mateo, Lodi, Tracy, and Modesto dropped (in-city or < 5 mi coverage). South Lake Tahoe nearest is now Grace Community Church Minden (~12.4 mi). Davis remains #1 because of the Coalition “Needs a Church Planter” pin.
 
