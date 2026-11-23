@@ -136,6 +136,7 @@ PIN_META = [
     dict(layer="Church Plants - In Progress", pin="Trinity Church Benicia", city="Benicia", website="https://www.trinitybenicia.com/", region="North Bay", pastor="Ryan Rippee"),
     dict(layer="Church Plants - In Progress", pin="The Shepherd's Church", city="Folsom", website="https://www.tscfolsom.org/", region="Sacramento & Foothills", pastor="Maxwell Monaghan"),
     dict(layer="Church Plants - In Progress", pin="Gospel Community Church", city="Livermore", website="https://gcclivermore.org", region="East Bay", display="Gospel Community Church Livermore", pastor="Sammy Barton"),
+    dict(layer="Church Plants - In Progress", pin="Christ Bible Church", city="Sacramento", website="https://christbiblesac.churchcenter.com", region="Sacramento & Foothills", display="Christ Bible Church Sacramento", pastor="Ben Ito"),
     # Spanish — standalone congregations count as coverage; attached ministries do not
     dict(layer="Spanish Churches", pin="Iglesia del Pueblo de Dios (Tracy)", city="Tracy", website="https://iglesiadelpueblodedios.com/", region="Central Valley", display="Iglesia del Pueblo de Dios Tracy", pastor="Luis Floriano", spanish=True),
     dict(layer="Spanish Churches", pin="Iglesia del Pueblo de Dios (Lodi)", city="Lodi", website="https://iglesiadelpueblodedios.com/", region="Central Valley", display="Iglesia del Pueblo de Dios Lodi", pastor="Luis Floriano", spanish=True),
@@ -707,13 +708,13 @@ def patch_map_html(template: str, churches: list[dict], gaps: list[dict], stamp:
         flags=re.S,
     )
     html, n3 = re.subn(
-        r"(First-pass scout|Updated) · [^<]+",
+        r"(?:First-pass scout|Updated)(?: ·)? [^<]+",
         f"Updated {stamp} PT",
         html,
         count=1,
     )
-    if n1 != 1 or n2 != 1:
-        raise RuntimeError(f"Failed to patch map HTML (churches={n1}, gaps={n2})")
+    if n1 != 1 or n2 != 1 or n3 != 1:
+        raise RuntimeError(f"Failed to patch map HTML (churches={n1}, gaps={n2}, date={n3})")
     # Guardrails: styling / tiles must stay OSM, no Weak Presence legend
     if "tile.openstreetmap.org" not in html:
         raise RuntimeError("Map HTML lost OpenStreetMap tiles")

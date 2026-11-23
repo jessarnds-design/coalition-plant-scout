@@ -1,8 +1,8 @@
 # Ranked church-planting gap areas — Northern California
 
 **Home base:** Grace Church of Napa Valley (Napa, CA)  
-**Generated:** 2026-11-14 (PT)  
-**Like-minded set:** Coalition My Map (Like-Minded + Church Plants + standalone Spanish congregations); 84 coverage pins. See `churches.json`.  
+**Generated:** 2026-11-23 (PT)  
+**Like-minded set:** Coalition My Map (Like-Minded + Church Plants + standalone Spanish congregations); 85 coverage pins. See `churches.json`.  
 **Gap radius:** ~18 miles primary; large cities (≥50k) flagged from ~12+ miles if no in-city church. Gaps with a like-minded church within 5 miles are dropped (except Davis, which stays as the Coalition “Needs a Church Planter” pin).
 
 ## Scoring method (transparent)
@@ -35,7 +35,7 @@
 
 - **Population (est.):** 67,000
 - **Nearest like-minded:** Chinese Grace Bible Church Sacramento (Sacramento), 10.7 mi
-- **Like-minded within 40 mi:** 26
+- **Like-minded within 40 mi:** 27
 - **Distance to Napa:** 34.6 mi
 - **Opportunity type:** A_send_pastor
 - **Score parts:** pop 18 + distance 22 + growth 7.5 + vacuum 4 + Napa 12
@@ -75,7 +75,7 @@
 
 - **Population (est.):** 61,000
 - **Nearest like-minded:** The Cornerstone Bible Church Sacramento (Sacramento), 15.5 mi
-- **Like-minded within 40 mi:** 23
+- **Like-minded within 40 mi:** 24
 - **Distance to Napa:** 38.2 mi
 - **Opportunity type:** A_send_pastor
 - **Score parts:** pop 18 + distance 10 + growth 7.5 + vacuum 4 + Napa 12

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-11-14",
+    "generated": "2026-11-23",
     "home_base": "Grace Church of Napa Valley",
     "home_base_city": "Napa",
     "home_base_lat": 38.326962,
@@ -8,8 +8,8 @@
     "source": "CoalitionCEC Google My Map KML (Like-Minded + Church Plants + standalone Spanish)",
     "kml_url": "https://www.google.com/maps/d/kml?mid=1BFWKsEJu0DoY82dBpnqJ-jFAbnHAj5mO&forcekml=1",
     "like_minded_definition": "CoalitionCEC circle OR TMS/9Marks/MacArthur-aligned (expository, elder-led, Doctrines of Grace, Solas, ACBC-friendly, complementarian, generally cessationist)",
-    "count": 85,
-    "coverage_count": 84,
+    "count": 86,
+    "coverage_count": 85,
     "radius_miles_for_gap": 18,
     "confidence": "Synced from the live Coalition My Map; pastors/websites enriched from the Coalition church list when the KML field is empty.",
     "notes": "Hartstone Bible Camp excluded. Attached Spanish ministries of an English church are not plotted as a second pin. No Weak Presence category. Windsor Christian Church is adjacent_explore and does not count as coverage. Patterson Bible Church is omitted unless it reappears on the My Map."
@@ -72,6 +72,21 @@
         "CoalitionCEC map"
       ],
       "status": "established",
+      "coord_source": "Coalition My Map KML",
+      "region": "Sacramento & Foothills"
+    },
+    {
+      "name": "Christ Bible Church Sacramento",
+      "city": "Sacramento",
+      "state": "CA",
+      "pastor": "Ben Ito",
+      "website": "https://christbiblesac.churchcenter.com",
+      "lat": 38.5628427,
+      "lon": -121.5105929,
+      "affiliation_signals": [
+        "CoalitionCEC map"
+      ],
+      "status": "plant_in_progress",
       "coord_source": "Coalition My Map KML",
       "region": "Sacramento & Foothills"
     },
@@ -1304,6 +1319,7 @@
   ],
   "plants_in_progress": [
     "Calvary Grace Church",
+    "Christ Bible Church Sacramento",
     "ChristChurch of the Valley",
     "Folsom Bible Church",
     "Gospel Community Church Livermore",
